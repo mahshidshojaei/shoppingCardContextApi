@@ -2,7 +2,9 @@ import React from 'react'
 
 function App() {
   return (
-    <div className='bg-zinc-100 h-screen'></div>
+    <div className='bg-zinc-100 h-screen'>
+      
+    </div>
   )
 }
 
