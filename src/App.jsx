@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Navbar from './Components/Navbar'
 import Products from './Components/Products'
 import products from './data/products'
+import Toast from './Components/Toast/Toast'
+
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
         <Products {...product} />
       ))}
     </main>
+    <Toast />
   </div>
   
   )
